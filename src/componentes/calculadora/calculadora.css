@@ -1,0 +1,31 @@
+html {
+    background: linear-gradient(109.7deg, rgb(229, 0, 57) 1.8%, rgb(162, 91, 182) 90.2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: Arial;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.calculadora {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(162, 91, 182) 90.2%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 50px;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
