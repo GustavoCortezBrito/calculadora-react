@@ -1,12 +1,8 @@
-import './display.css'
+import "./display.css";
 
-
-function Display () {
-    return(
-        <div className="display">
-        </div>
-    )
-
+function Display({ value }) {
+  console.log(value);
+  return <div className='display'>{value}</div>;
 }
 
-export default Display
+export default Display;
